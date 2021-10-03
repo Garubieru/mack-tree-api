@@ -1,0 +1,42 @@
+{
+  "name": "project_structure",
+  "version": "1.0.0",
+  "description": "Data structure project",
+  "main": "index.js",
+  "author": "Gabriel Morishita",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon dist/server.js",
+    "dev": "clear && tsnd --respawn -r tsconfig-paths/register --transpile-only src/server.ts",
+    "build": "tsc --project tsconfig.json && tsconfig-replace-paths --project tsconfig.json"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.12",
+    "@types/express": "^4.17.13",
+    "@types/lodash": "^4.14.173",
+    "@types/node": "^16.9.4",
+    "@types/yup": "^0.29.13",
+    "@typescript-eslint/eslint-plugin": "^4.31.1",
+    "@typescript-eslint/parser": "^4.31.1",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-airbnb-typescript": "^14.0.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.24.2",
+    "eslint-plugin-prettier": "^4.0.0",
+    "nodemon": "^2.0.12",
+    "prettier": "^2.4.1",
+    "ts-node": "^10.2.1",
+    "ts-node-dev": "^1.1.8",
+    "tsconfig-paths": "^3.11.0",
+    "tsconfig-replace-paths": "^0.0.5",
+    "typescript": "^4.4.3"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "helmet": "^4.6.0",
+    "lodash": "^4.17.21",
+    "yup": "^0.32.9"
+  }
+}
