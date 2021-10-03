@@ -26,7 +26,7 @@ Foi utilizado uma aplicação web em **React + Next.js** para gerar os gráficos
 
 Repo do código do front-end: https://github.com/Garubieru/mack-tree-front
 
+<img src="https://i.imgur.com/lkvMtmX.png" align="center">
+
 ## Vídeo da explicação
  - https://www.youtube.com/watch?v=mXXQW_GD6k0
-
-<img src="https://i.imgur.com/lkvMtmX.png" align="center">
